@@ -1,0 +1,28 @@
+postman
+npm
+
+Curiosidades:
+jQuerry
+
+>Plugins do VSCode
+coderunner
+
+>Pacotes:
+nodemon - https://nodemon.io/
+crypto-js - https://github.com/brix/crypto-js
+jest - https://facebook.github.io/jest/
+
+Para rodar o teste, como CMD na pasta:
+npm run test
+
+******Nota das Aulas******
+
+Seção 3, Aula 18
+
+it('validates a valid chain', () => {
+        bc2.addBlock('foo');
+        console.log('bc2: ' + bc2);
+        expect(bc.isValidChain(bc2.chain)).toBe(true);  //Aparentemente não será valido porque o time stamp dos blocos será diferente;
+    });
+
+O erro se deu por causa de erro de sintaxe da variável 'lastHash'
