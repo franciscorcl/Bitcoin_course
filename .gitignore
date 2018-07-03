@@ -1,2 +1,5 @@
-note-modules/
+#Ignored folders
+node_modules/
+
+#Ignored files
 teste.txt
