@@ -26,3 +26,7 @@ it('validates a valid chain', () => {
     });
 
 O erro se deu por causa de erro de sintaxe da variável 'lastHash'
+
+***Na Seção 4, aula 21
+Foi renomeados os arquivos blockchain.js e blockchain.test.js para index.js e index.test.js
+
